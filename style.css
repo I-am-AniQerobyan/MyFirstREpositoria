@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+.container {
+    margin: 60px auto;
+    background-color: #ccc;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container p {
+    color: rgb(37 37 158);
+}
+
+.container img {
+    height: 100px;
+}
+
+.img-anim {
+    margin: 20px;
+    animation: gitCats 5s infinite;
+}
+
+@keyframes gitCats {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
